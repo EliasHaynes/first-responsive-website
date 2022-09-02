@@ -1,6 +1,64 @@
+
 body {
-    height: 100%
+    height: 100%;
     width: 100%;
-    background-color: red;
-    
+    margin: 0px 0px 0px 0px;
+
 }
+ .main-container {
+    height: 50%;
+    width: 100%;
+    background-color: aqua;
+    
+ }
+
+.sub-container {
+    height:50%;
+    background-color: black;
+    display:flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    color: white;
+    margin:0px;
+    text-align: center;
+}
+
+ p {
+    color: white;
+    text-align:center;
+
+ }
+
+ div.redbox {
+    width: 100px;
+    height:25px;
+    background-color:red;
+ }
+
+ div.bluebox {
+    width: 100px;
+    height:25px;
+    background-color:blue;
+ }
+
+ div.orangebox {
+    width: 100px;
+    height:25px;
+    background-color:orange;
+ }
+
+ @media (max-width: 576px) {
+
+
+    .sub-container {
+        flex-flow: column wrap;
+    }
+ }
