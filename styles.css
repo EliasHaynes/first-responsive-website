@@ -57,8 +57,7 @@ h2 {
 
  @media (max-width: 576px) {
 
-
-    .sub-container {
-        flex-flow: column wrap;
-    }
+.sub-container {
+    flex-flow: column wrap;
+}
  }
